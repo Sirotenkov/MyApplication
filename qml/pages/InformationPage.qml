@@ -12,7 +12,7 @@ Page {
         description: qsTr("Плодробная информация о пользователе")
     }
 
-    property string currentPageName: qsTr("Information")
+//    property string currentPageName: qsTr("Information")
 
     allowedOrientations: defaultAllowedOrientations
 

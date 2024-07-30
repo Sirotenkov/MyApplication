@@ -13,7 +13,6 @@ Page {
     }
 
     signal clicked
-    property string currentPageName: qsTr("Login")
 
     allowedOrientations: defaultAllowedOrientations
 
