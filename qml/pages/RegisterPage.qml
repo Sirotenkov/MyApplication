@@ -37,7 +37,7 @@ Page {
             Label {
                 id: label1
                 anchors.horizontalCenter: parent.horizontalCenter
-                text: qsTr("Здравствуйте!")
+                text: qsTr("Здравствуйте") + "!"
                 font.pixelSize: Theme.fontSizeLarge
                 font.family: Theme.fontFamilyHeading
                 font.underline: true
