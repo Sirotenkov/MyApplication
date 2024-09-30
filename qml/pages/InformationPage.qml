@@ -141,7 +141,7 @@ Page {
                 placeholderText: qsTr("Номер телефона")
                 placeholderColor: Theme.primaryColor
                 backgroundStyle: TextEditor.FilledBackground
-                label: qsTr("Mobile phone number")
+                label: qsTr("Номер мобильного телефона")
                 inputMethodHints: Qt.ImhDialableCharactersOnly
                 validator: RegExpValidator { regExp: /^[0-9\+\-#\*\ ]{3,11}$/ }
                 EnterKey.enabled: !errorHighlight

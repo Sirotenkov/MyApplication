@@ -64,7 +64,7 @@ Page {
                 width: parent.width
                 placeholderText: qsTr("Логин")
                 placeholderColor: Theme.secondaryHighlightColor
-                label: qsTr("Login")
+                label: qsTr("Логин")
                 color: Theme.secondaryColor
                 inputMethodHints: Qt.ImhNoAutoUppercase
                 maximumLength: 30
@@ -79,7 +79,7 @@ Page {
                 width: parent.width
                 placeholderText: qsTr("Пароль")
                 placeholderColor: Theme.secondaryHighlightColor
-                label: qsTr("Password")
+                label: qsTr("Пароль")
                 color: Theme.secondaryColor
                 inputMethodHints: Qt.ImhNoAutoUppercase
                 maximumLength: 30
