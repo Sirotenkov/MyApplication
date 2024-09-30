@@ -9,10 +9,8 @@ Page {
     PageHeader {
         id: pageHeader
         title: qsTr("Информация")
-        description: qsTr("Плодробная информация о пользователе")
+        description: qsTr("Подробная информация о пользователе")
     }
-
-//    property string currentPageName: qsTr("Information")
 
     allowedOrientations: defaultAllowedOrientations
 
@@ -40,10 +38,10 @@ Page {
 
                 Label {
                     id: label1
-                    width: parent.width // - 2.0 * Theme.horizontalPageMargin
+                    width: parent.width
                     padding: Theme.paddingMedium
                     anchors.horizontalCenter: parent.horizontalCenter
-                    text: qsTr("Заполните, пожалуйста, более подробные сведения о себе на данной странице")
+                    text: qsTr("Заполните, пожалуйста, более подробные сведения о себе")
                     horizontalAlignment: Qt.AlignHCenter
                     verticalAlignment: Qt.AlignVCenter
                     font.pixelSize: Theme.fontSizeLarge
@@ -87,7 +85,7 @@ Page {
                 id: label3
                 width: parent.width
                 anchors.horizontalCenter: parent.horizontalCenter
-                text: qsTr("Вы являетесь гражданином РФ?")
+                text: qsTr("Вы являетесь гражданином РФ") + "?"
                 horizontalAlignment: Qt.AlignHCenter
                 font.pixelSize: Theme.fontSizeLarge
                 font.letterSpacing: -1
@@ -168,7 +166,7 @@ Page {
                 width: parent.width
                 label: qsTr("Информация в произвольном виде")
                 font.letterSpacing: -1
-                placeholderText: qsTr("Любая информация...")
+                placeholderText: qsTr("Любая информация") + "..."
                 description: qsTr("Дополнительная информация")
                 placeholderColor: Theme.secondaryColor
                 wrapMode: TextEdit.Wrap
@@ -209,6 +207,5 @@ Page {
             onReleased: Qt.lighter(color, 1.2)
             onClicked: pageStack.pop()
         }
-
     }
 }
