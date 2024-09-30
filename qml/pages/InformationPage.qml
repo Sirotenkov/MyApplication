@@ -114,8 +114,8 @@ Page {
             TextField {
                 id: email
                 width: parent.width
-                placeholderText: qsTr("username@yandex.ru")
-                label: qsTr("E-mail")
+                placeholderText: "username@yandex.ru"
+                label: "E-mail"
                 leftItem: Icon { source: "image://theme/icon-m-mail" }
                 inputMethodHints: Qt.ImhFormattedNumbersOnly
                 validator: RegExpValidator { regExp: /^[A-z0-9@A-z.A-z]{6,32}$/ }
